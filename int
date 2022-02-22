@@ -1,0 +1,27 @@
+ int number = 123;
+        int hundreds = number/100;
+        int tens = (number%100)/10;
+        int ones = number%10;
+        int number2 = ones*100+tens*10+hundreds;
+        System.out.println(number2);
+Алексей Кириллов19:57
+number = 235;
+        //235/10=(23; 5)
+        hundreds = number/100;
+        tens = (number%100)/10;
+        ones = number%10;
+        number2 = tens*100+ones*10+hundreds;
+        System.out.println(number2);
+Алексей Кириллов20:07
+number = 235;
+        //235/10=(23; 5)
+        hundreds = number/100;
+        tens = (number%100)/10;
+        ones = number%10;
+        number2 = tens*100+ones*10+hundreds;
+        System.out.println(number2);
+
+        if (tens%2==0)
+            tens++;
+        number2 = hundreds*100+tens*10+ones;
+        System.out.println(number2);
